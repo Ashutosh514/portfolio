@@ -1,0 +1,205 @@
+*{
+    margin: 0px;
+    padding: 0px;
+      }
+body{
+    color: white;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(64,57,23,1) 28%, rgba(144,31,22,1) 72%, rgb(207, 58, 8) 100%);
+}
+nav{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 88px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+    font-size: 1.07rem;
+    padding: 5px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    }
+
+    nav ul button {
+        background-color: #04AA6D;
+        font-size: 15px;
+        padding: 3px 25px;
+        border-radius: 12px;
+        border: 2px solid #04AA6D;
+        }
+nav ul button a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.left {
+    font-size: 2rem;
+}
+section{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+.leftSection{
+    width: 30%;
+    margin: 70px;
+}
+.subtitle1{
+    font-size: 2rem;
+    color: yellow;
+}
+.subtitle2{
+    font-size: 4rem;
+    margin: 10px 0;
+}
+.subtitle3{
+    font-size: 1.5rem;
+    color: springgreen
+}
+.subtitle4{
+    margin: 10px 0;
+}
+.leftSection button{
+    background-color: #04AA6D;
+    font-size: 15px;
+    padding: 6px 25px;
+    margin: 20px 0;
+    border-radius: 12px;
+    color: white;
+    border: 2px solid #04AA6D;
+}
+.leftSection button a{
+    text-decoration: none;
+    color: white;
+}
+
+.rightSection{
+    width: 30%;
+}
+.rightSection img{
+    width: 99%;
+    margin: 30px 0;
+}
+
+    
+footer{
+    background-color: black;
+    height: 220px;
+    justify-content: space-around;
+    .footer-box{
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    div.footer-first{
+        margin: 20px 0;
+    }
+    div.footer-first h3{
+        height: 30px;
+    }
+    div.footer-first ul li{
+        list-style: none;
+        margin-bottom: 10px;
+    }
+}
+.email-icon{
+    color: red;
+}
+.call-icon{
+    color: red;
+    transform: scaleX(-1);      /*for invert the icon right to left*/
+}
+
+div.footer-second{
+    margin: 20px 0;
+}
+div.footer-second h3{
+    height: 33px;
+}
+div.footer-second ul li{
+    list-style: none;
+    margin-bottom: 7px;
+}
+
+
+div.footer-third{
+    margin: 20px 0;
+}
+div.footer-third h3{
+    height: 33px;
+}
+div.footer-third ul li{
+    list-style: none;
+    margin-bottom: 2px;
+}
+div.footer-third ul li a{
+    text-decoration: none;
+    color: white;
+}
+.facebook-icon {
+    color: #1877F2;                 /* Facebook's official blue color */
+    font-size: 1.2rem;                /* Adjust the size as needed */
+    align-items: center;
+    margin: 0 10px;
+}
+
+
+.instagram-icon {
+    color: #E4405F;
+    font-size: 1.2rem;
+    align-items: center;
+    vertical-align: middle;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.instagram-icon:hover {
+    color: #C13584;
+}
+
+
+.linkedin-icon {
+    color: #0077B5;                         /* Official LinkedIn blue */
+    font-size: 1.2rem; 
+    align-items: center;
+    vertical-align: middle;
+    margin: 0 10px; 
+    transition: color 0.3s ease;                 /* Smooth hover effect */
+}
+
+.linkedin-icon:hover {
+    color: #005582;                      /* Darker shade of blue on hover */
+}
+
+
+.youtube-icon {
+    color: #FF0000;
+    font-size: 1.2rem;
+    align-items: center;
+    vertical-align: middle;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.youtube-icon:hover {
+    color: #CC0000;
+}
+
+
+footer p{
+    display: flex;
+    justify-content: center;
+    font-size: .9rem;
+    padding: 20px;
+}
